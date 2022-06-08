@@ -1,0 +1,62 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+/* Import and set up fonts */
+@font-face {
+  font-family: HelloAudrey;
+  src: url(fonts/HelloAudrey.ttf);
+}
+
+body {
+  background-color: rgb(12, 34, 56);
+  font-family: Calibri, Arial, Verdana;
+  color: white;
+  padding: 20px;
+}
+
+h1 {
+  color: rgb(255, 255, 0);
+  font-family: HelloAudrey,Geneva, Times;
+  margin-bottom: 10px;
+}
+
+h2 {
+  /* margin: top right bottom left */
+  margin: 20px 0px 5px 0px;
+}
+
+p {
+  margin-bottom: 15px;
+}
+
+ul {
+  margin-left: 20px;
+}
+
+/* Captions for photos */
+
+/* Classes are rules that can be applied to any tag.
+They must start with a full-stop */
+.caption {
+  color: rgba(214, 214, 214, 0.5);
+  font-style: italic;
+  margin-bottom: 25px;
+}
+
+
+/* Format links */
+/* Default link status */
+a:link {
+  color: rgb(210, 120, 0);
+  text-decoration: none;
+}
+/* Visited links */
+a:visited {
+  color: rgb(210, 120, 0);
+}
+/* Hovering over a link */
+a:hover {
+  text-decoration: underline;
+}

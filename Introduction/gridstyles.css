@@ -1,0 +1,32 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+body {
+  color: white;
+}
+/* Navbar styles */
+.navbar {
+  background-color: indigo;
+  height: 120px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  padding: 80px 20px 0 20px;
+}
+.logo {
+  text-align: center;
+}
+.login {
+  text-align: right;
+}
+/* Format links */
+a:link {
+  color: white;
+  text-decoration: none;
+}
+a:visited {
+  color: white;
+}
+a:hover {
+  color: white;
+}

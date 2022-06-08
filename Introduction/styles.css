@@ -1,0 +1,64 @@
+/* Reset all margins and padding to zero */
+* {
+  margin: 0px;
+  padding: 0px;
+}
+body {
+  padding: 30px;
+  background-color: rgb(12, 34, 56);
+  font-family: Calibri, Arial, Verdana;
+  color: white;
+}
+h1 {
+  color: rgb(255, 255, 0);
+  margin-top: 15px;
+  margin-bottom: 5px;
+  font-family: Geneva, Times;
+}
+p {
+  margin-bottom: 10px;
+}
+ul {
+  margin-left: 30px;
+}
+ol {
+  margin-left: 30px;
+}
+li {
+  margin-bottom: 10px;
+}
+/* Styling the links */
+a:link {
+  color: rgb(255, 120, 0);
+  text-decoration: none;
+}
+a:visited {
+  color: rgb(255, 120, 0);
+}
+a:hover {
+  text-decoration: underline;
+}
+/* Classes for div tag */
+.firstdiv {
+  background-color: rgb(255, 0, 0);
+  width: 300px;
+}
+.seconddiv {
+  background-color: rgb(0, 255, 0);
+  width: 700px;
+}
+
+/* Grid styles */
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  background-color: indigo;
+  padding: 0px 20px;
+}
+.logo {
+
+}
+.links {
+  text-align: right;
+  padding-top: 20px;
+}
